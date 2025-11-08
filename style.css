@@ -1,0 +1,75 @@
+/* 🌍 Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body background (gradient) */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Blue gradient */
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1); /* transparent glass */
+  padding: 30px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);  /* Glassmorphism effect */
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  width: 400px;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+/* Search box */
+.search-box {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 65%;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #ff9800;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e68900;
+}
+
+/* Result cards */
+.card {
+  background: rgba(255, 255, 255, 0.15);
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
